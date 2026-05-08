@@ -81,8 +81,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary" },
       { name: "twitter:title", content: "نظام الطيبات — إرث الدكتور ضياء العوضي" },
       { name: "twitter:description", content: "نظام غذائي طبيعي قائم على علم وحكمة. استكشف المسموحات، الممنوعات، النظريات والاقتباسات." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ae328904-6172-4a00-8c5a-dbaad9a0546b/id-preview-cbd510c4--f9c222b6-fe14-43d3-9133-169f2a4797bd.lovable.app-1778202197971.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ae328904-6172-4a00-8c5a-dbaad9a0546b/id-preview-cbd510c4--f9c222b6-fe14-43d3-9133-169f2a4797bd.lovable.app-1778202197971.png" },
+      { property: "og:image", content: "/favicon.jpg" },
+      { name: "twitter:image", content: "/favicon.jpg" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
