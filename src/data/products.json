@@ -1,0 +1,1433 @@
+{
+  "allowed": [
+    {
+      "name": "توست القمح الكامل",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438642/tayebat/products/inq5mmn2uwtctpbmak9z.jpg",
+      "category": "نشويات وحبوب",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "توست القمح الكامل بالزبدة \\- مسموح بكميات معقولة",
+      "status": "allowed"
+    },
+    {
+      "name": "زيت الزيتون البكر",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438688/tayebat/products/laty98zw0btxhmjamrmk.jpg",
+      "category": "أساسيات وبهارات طبيعية",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "زيت زيتون بكر ممتاز \\- مسموح بكميات معتدلة",
+      "status": "allowed"
+    },
+    {
+      "name": "زبدة بلدي طبيعية",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438705/tayebat/products/nepkykvdih3xhpdbjp17.jpg",
+      "category": "أساسيات وبهارات طبيعية",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "زبدة بلدي طازجة \\- مسموح بها بشكل معتدل",
+      "status": "allowed"
+    },
+    {
+      "name": "أرز / رز ابيض مصري",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438733/tayebat/products/aorllj2krtnfcsuk5wjd.jpg",
+      "category": "نشويات وحبوب",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "أرز مطبوخ بدون ملح أو ثوم \\- من الأساسيات المسموحة",
+      "status": "allowed"
+    },
+    {
+      "name": "طحينة طبيعية \"سمسم\"",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438793/tayebat/products/fbunwdbcyv72remeorxx.jpg",
+      "category": "أساسيات وبهارات طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "طحينة سمسم طبيعية بدون إضافات \\- مسموح بها",
+      "status": "allowed"
+    },
+    {
+      "name": "فراولة طازجة / مقشرة",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438818/tayebat/products/hkakaftkxqhibuofhvxc.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "فراولة طازجة \\- مسموح بها مع مراعاة الكمية",
+      "status": "allowed"
+    },
+    {
+      "name": "رمان طازج بدور بذور",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438844/tayebat/products/s4e3qqfbugkvpahqlqzq.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "رمان طازج وعصيره \\- مسموح يومياً بكميات طبيعية",
+      "status": "allowed"
+    },
+    {
+      "name": "لوز طبيعي / اخضر فرش",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438866/tayebat/products/nszgddd4oqs6gzdapq0e.jpg",
+      "category": "مكسرات وبذور وزيوت",
+      "frequency": "🟣 أحياناً",
+      "description": "لوز طبيعي غير مملح \\- مسموح بكميات يومية",
+      "status": "allowed"
+    },
+    {
+      "name": "لحم بتلو / كندوز",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438890/tayebat/products/ywliwdkbnyfhnlhwgmat.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "لحم بتلو أو كندوز طازج مشوي أو مسلوق \\- مسموح أكله مسلوق فقط وناضج جداََ",
+      "status": "allowed"
+    },
+    {
+      "name": "سمك سردين طازج \\- مشوي",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438912/tayebat/products/h08qzbly8nathhxzp7bw.jpg",
+      "category": "أسماك وبروتين بحري",
+      "frequency": "🟡 أسبوعياً",
+      "description": "سردين طازج مشوي \\- من أنواع الأسماك المسموحة",
+      "status": "allowed"
+    },
+    {
+      "name": "زعتر طبيعي",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438942/tayebat/products/rxytr5nl7as9g4x8gt5m.jpg",
+      "category": "مشروبات ساخنة وأعشاب",
+      "frequency": "🟡 أسبوعياً",
+      "description": "زعتر طبيعي كمشروب أو على الأكل \\- مسموح",
+      "status": "allowed"
+    },
+    {
+      "name": "لحم الابل / الجمل",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438964/tayebat/products/ud5bmldyh0wt7ml7qbhb.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "لحم الإبل من أفضل اللحوم — البقري والجاموسي ولحم الإبل هي اللحوم المسموحة الأساسية",
+      "status": "allowed"
+    },
+    {
+      "name": "أي سمك بحر يتغذى على سمك فقط",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438985/tayebat/products/la9rajlfqy0v403nps5t.jpg",
+      "category": "أسماك وبروتين بحري",
+      "frequency": "🟡 أسبوعياً",
+      "description": "السمك اللي بيتغذى على السمك كله مفيد",
+      "status": "allowed"
+    },
+    {
+      "name": "زيت الذرة وعباد الشمس",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439022/tayebat/products/aqbfu4akbxld3fshwyjq.jpg",
+      "category": "زيوت طبيعية وخل",
+      "frequency": "🟢 يومياً",
+      "description": "زيت الذرة للقلي مفيد — مسموح استخدامه في الطهي",
+      "status": "allowed"
+    },
+    {
+      "name": "خل قصب السكر الطبيعي",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439059/tayebat/products/ag3j8udf5hanmqvltl8k.jpg",
+      "category": "زيوت طبيعية وخل",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الخل الطبيعي أساسي في النظام",
+      "status": "allowed"
+    },
+    {
+      "name": "زيتون كالاماتا مخلل",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439088/tayebat/products/y65xprzvo3idb11eer1f.jpg",
+      "category": "زيوت طبيعية وخل",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الزيتون بأنواعه مسموح، اختار الأعلى جودة",
+      "status": "allowed"
+    },
+    {
+      "name": "عسل النحل الطبيعي",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439112/tayebat/products/ipruc2qeiegjrmbi860z.jpg",
+      "category": "عسل ومنتجات نحل",
+      "frequency": "🟢 يومياً",
+      "description": "عسل النحل من أهم المسموحات",
+      "status": "allowed"
+    },
+    {
+      "name": "شمع العسل",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439139/tayebat/products/r9hlitiwac9z6wagbcnj.jpg",
+      "category": "عسل ومنتجات نحل",
+      "frequency": "🟡 أسبوعياً",
+      "description": "شمع العسل مسموح ومفيد",
+      "status": "allowed"
+    },
+    {
+      "name": "عنب اسود / احمر / اخضر",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439189/tayebat/products/o9cqcoeqkvdg4mcbcojr.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "العنب بالترتيب اسود / احمر / اخضر من الفواكه المسموحة والمفيدة جداً",
+      "status": "allowed"
+    },
+    {
+      "name": "تفاح مع تقشيره فقط!!",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439225/tayebat/products/pqpottasld4ixsbltxxz.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "التفاح مع تقشيره والاكل بدون قشر",
+      "status": "allowed"
+    },
+    {
+      "name": "موز / الموز",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439263/tayebat/products/upng8fu3l9loiitsf5qo.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الموز مسموح بكميات معتدلة",
+      "status": "allowed"
+    },
+    {
+      "name": "قشطة وزبدة طبيعية",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439285/tayebat/products/zkbq9d1kcvqieb95jjl7.jpg",
+      "category": "أساسيات وبهارات طبيعية",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "القشطة طبيعية من المسموحات",
+      "status": "allowed"
+    },
+    {
+      "name": "مربات تين / مشمش / فراولة",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439324/tayebat/products/huaqmy4w2jsdegdp7j5m.jpg",
+      "category": "أساسيات وبهارات طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "المربات من المسموحات في النظام",
+      "status": "allowed"
+    },
+    {
+      "name": "عسل أسود طبيعي (دبس)",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777432645/tayebat/products/mjjdk3yo0gsjgolycd99.jpg",
+      "category": "علاجات طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "العسل الأسود الطبيعي مصدر ممتاز للحديد",
+      "status": "allowed"
+    },
+    {
+      "name": "لبان دكر",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777432385/tayebat/products/sgo4wdaf6qb8m76agihq.jpg",
+      "category": "علاجات طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "لو عندك ألم مفاصل — انقع لبان دكر واشربه أو امضغه",
+      "status": "allowed"
+    },
+    {
+      "name": "مستكة يونانية",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777432928/tayebat/products/vgnaegv8cviqxnkcc4rg.jpg",
+      "category": "علاجات طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "لعلاج قرحة المعدة — مستكة منقوعة مع زبدة جوز الهند على الريق",
+      "status": "allowed"
+    },
+    {
+      "name": "بطاطا حلوة",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777433083/tayebat/products/lta5edz7zpvvxefaghe0.jpg",
+      "category": "نشويات وحبوب",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "مسموحة بجميع أشكالها — مهروسة بزبدة، مقلية بزيت، شيبسي",
+      "status": "allowed"
+    },
+    {
+      "name": "ذرة مشوية",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777433394/tayebat/products/elaa1e6otcksan2txpnm.jpg",
+      "category": "نشويات وحبوب",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الذرة على فترات متباعدة.",
+      "status": "allowed"
+    },
+    {
+      "name": "جبنة جودة (Gouda)",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777433699/tayebat/products/bnagq6h1dmkll9ynwrhz.jpg",
+      "category": "أجبان مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "جبنة جودة من الأجبان المطبوخة المسموحة",
+      "status": "allowed"
+    },
+    {
+      "name": "جبنة فلمنك (EDAM)",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777433961/tayebat/products/fai6sfr9nwczt678dh0m.jpg",
+      "category": "أجبان مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "جبنة فلمنك من الأجبان المسموحة",
+      "status": "allowed"
+    },
+    {
+      "name": "جبنة موتزاريلا الطبيعية",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777434234/tayebat/products/cjcwzsiqsfqxk4pzh5gs.jpg",
+      "category": "أجبان مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "جبنة موتزاريلا مسموحة",
+      "status": "allowed"
+    },
+    {
+      "name": "جبنة شيدر",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777434460/tayebat/products/ld8fr9alox3e22swvzr3.jpg",
+      "category": "أجبان مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "جبنة شيدر مسموحة",
+      "status": "allowed"
+    },
+    {
+      "name": "جبنة ريكفورد كشكفال",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777434716/tayebat/products/zcki8vrsi4nh6oyd6kbn.jpg",
+      "category": "أجبان مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "جبنة ريكفورد كشكفال مسموح",
+      "status": "allowed"
+    },
+    {
+      "name": "حلاوة الطحينية الغامقة",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777434963/tayebat/products/kq6x33gmjvb5ba7qmdfg.jpg",
+      "category": "حلويات ومربيات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "حلاوة الطحينية الغامقة \\+ الطحينة مسموحة. حلاوة المولد (نوجا) مسموحة أيضاً",
+      "status": "allowed"
+    },
+    {
+      "name": "نوتيلا",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777435173/tayebat/products/uxxm8hdzgxmn2ft4hl0z.jpg",
+      "category": "حلويات ومربيات",
+      "frequency": "🟢 يومياً",
+      "description": "نوتيلا مسموحة صباح وليل فقط",
+      "status": "allowed"
+    },
+    {
+      "name": "فواكه مجففة (تمر، زبيب، توت، كريز)",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777435420/tayebat/products/udjyvkl2di8b0bzulj2c.jpg",
+      "category": "حلويات ومربيات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الفواكه المجففة والمكسرات مسموحة كحلوى طبيعية",
+      "status": "allowed"
+    },
+    {
+      "name": "مربى طبيعية ( عنب، توت، كريز )",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777435760/tayebat/products/frngguhilrbufdelzwxn.jpg",
+      "category": "حلويات ومربيات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "المربيات الطبيعية مسموحة",
+      "status": "allowed"
+    },
+    {
+      "name": "طائر الحمام / حمام",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777436007/tayebat/products/hq7ua5k4cchrsjwwk9a3.jpg",
+      "category": "طيور مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الحمام الطائر هو الطير الوحيد المقبول — يتغذى على الحبوب النظيفة",
+      "status": "allowed"
+    },
+    {
+      "name": "لحم السمان والطيور المهاجرة",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777436194/tayebat/products/lygfodtcqwhsb9zbncsz.jpg",
+      "category": "طيور مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "طيور السمان والطيور المهاجرة مسموحة",
+      "status": "allowed"
+    },
+    {
+      "name": "عصائر معلبة (جوافة، عنب، كريز، توت وقمر الدين)",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777436787/tayebat/products/dtb8fzuersixgudleblr.jpg",
+      "category": "عصائر مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "العصائر المعلبة مسموحة. العصائر الطبيعية الفريش ممنوعة",
+      "status": "allowed"
+    },
+    {
+      "name": "فشار الذرة الطبيعي",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777440058/tayebat/products/qlftpoesyobijm3xsiuq.jpg",
+      "category": "نشويات وحبوب",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الفشار الطبيعي مسموح على فترات متباعدة",
+      "status": "allowed"
+    },
+    {
+      "name": "سكر",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777437062/tayebat/products/vcj0pwfyfowwc6vmp4dn.jpg",
+      "category": "أساسيات وبهارات طبيعية",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "السكر مسموح — 15 ملعقة يومياً لتنشيط البدن",
+      "status": "allowed"
+    },
+    {
+      "name": "قهوة تركي مضمونة",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777437249/tayebat/products/ikajews4obszcmzvoepo.jpg",
+      "category": "مشروبات ساخنة وأعشاب",
+      "frequency": "🟢 يومياً",
+      "description": "القهوة التركية من مكان مضمون",
+      "status": "allowed"
+    },
+    {
+      "name": "شاي أخضر",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777437460/tayebat/products/dbu2jark2grgewkfa6lj.jpg",
+      "category": "مشروبات ساخنة وأعشاب",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الشاي الأخضر مسموح",
+      "status": "allowed"
+    },
+    {
+      "name": "كريز (الكرز)",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777440235/tayebat/products/i5neaahkyg3sijmgscbx.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الكريز والعنب الأحمر والتين مسموحة — ليس يومياً",
+      "status": "allowed"
+    },
+    {
+      "name": "جوافة بدون بذر",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777440400/tayebat/products/y5czyrhm2uotsqp6gra7.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟣 أحياناً",
+      "description": "الجوافة بدون بذر مسموحة — والرمان بدون بذر مسموح أيضاً",
+      "status": "allowed"
+    },
+    {
+      "name": "لحم الضاني / خروف",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777437860/tayebat/products/zeqsrcmkxvollrteoouk.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "لحم ضاني / خروف مسموح — بالسلق أو الشواء مع الملح والزيت فقط. مرة أسبوعياً",
+      "status": "allowed"
+    },
+    {
+      "name": "لحم الماعز",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438021/tayebat/products/z5dd42zjmf1d1wprbalw.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "لحم ماعز مسموح — مرتين أسبوعياً",
+      "status": "allowed"
+    },
+    {
+      "name": "كبدة الأنعام ما عدا الدجاج",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438198/tayebat/products/myvhdb3mav0yeo2eveku.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الكبدة والمفروم والكوارع مسموحة بكميات معتدلة",
+      "status": "allowed"
+    },
+    {
+      "name": "أرانب \\- لحم الارنب",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777440613/tayebat/products/gezd1ht7bnixu07wmxw1.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الأرانب مسموحة — يوم ويوم وليس يومياً",
+      "status": "allowed"
+    },
+    {
+      "name": "بطاطس / بطاطا",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777441048/tayebat/products/bckbgtre1wbcavtlebjd.jpg",
+      "category": "خضروات",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "البطاطا / البطاطس مسموحة وأساسية جداََ في النظام",
+      "status": "allowed"
+    },
+    {
+      "name": "الأرز ( بسمتي ، تايلندي ، أبيض ، بني )",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777441470/tayebat/products/z8of7tabfvz6boteukdf.jpg",
+      "category": "نشويات وحبوب",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "الأرز مسموح وأساسي في نظام الطيبات بأي شكل يُطبخ فيه ( أرز بالمكسرات ، بخاري ، كبسة وغيره )",
+      "status": "allowed"
+    },
+    {
+      "name": "ممبار محشي",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777441606/tayebat/products/ba0zycimt9brgg1lvog4.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "الممبار المحشي والمقلي مسموح",
+      "status": "allowed"
+    },
+    {
+      "name": "قرع",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777446202/tayebat/products/o2qlxt6pub3hlov5tewo.jpg",
+      "category": "خضروات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "جبنة رومي نوع نظيف ومضمون",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777444540/tayebat/products/lwir37hdkrc37jlpzxuk.jpg",
+      "category": "أجبان مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "جبنة رومي نوع نظيف ومضمون",
+      "status": "allowed"
+    },
+    {
+      "name": "إمنتال",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777444815/tayebat/products/kjrhh6qivznentfwxvgr.jpg",
+      "category": "أجبان مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "جبن مثلثات",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777445134/tayebat/products/izclcdvrtz8ik6iboglj.jpg",
+      "category": "أجبان مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "كل الجبن المطبوخ مثلثات ما عادا الكيري مرفوضة",
+      "status": "allowed"
+    },
+    {
+      "name": "جبن كريمي أكواب",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777445542/tayebat/products/ezdhh53kphqzfgyz8c6i.jpg",
+      "category": "أجبان مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "عين الجمل",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777445684/tayebat/products/ywvlhvuw3rb5ayup3fks.jpg",
+      "category": "مكسرات وبذور وزيوت",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "فستق حلبي",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777445867/tayebat/products/mcqt7up8chposexboqf1.jpg",
+      "category": "مكسرات وبذور وزيوت",
+      "frequency": "🟡 أسبوعياً",
+      "description": "فستق حلبي",
+      "status": "allowed"
+    },
+    {
+      "name": "فولية و سمسمية",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777443743/tayebat/products/i7vsjaxkl3mfunlnptid.jpg",
+      "category": "حلويات ومربيات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "شوكولاتة / شوكولاتة بالحليب",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777446580/tayebat/products/sqq1ekgniov7t2moapsx.jpg",
+      "category": "حلويات ومربيات",
+      "frequency": "🟢 يومياً",
+      "description": "دارك وغير دارك",
+      "status": "allowed"
+    },
+    {
+      "name": "بسبوسة (بدون بيض)",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438866/tayebat/products/nszgddd4oqs6gzdapq0e.jpg",
+      "category": "حلويات ومربيات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "مش بيتي",
+      "status": "allowed"
+    },
+    {
+      "name": "شيبسي",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777441878/tayebat/products/vfli72k3xgtranmb66zr.jpg",
+      "category": "نشويات مصنعة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "شيبس برينجلز",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777441963/tayebat/products/bzuxurmxm2ncqbz2ahmr.jpg",
+      "category": "نشويات مصنعة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "شيبس ليز",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777442094/tayebat/products/lj6yumnl72r0hb5sfizq.jpg",
+      "category": "نشويات مصنعة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "منجا معصورة وليس أكل",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777442505/tayebat/products/lov4rhjsz8hxgvvurs5j.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟣 أحياناً",
+      "description": "معصورة المانجا وليس أكل",
+      "status": "allowed"
+    },
+    {
+      "name": "برتقال ليمون يوسفي (عصير)",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777444329/tayebat/products/lsjibzbkmg24orpwmfnz.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "بكميات قليلة",
+      "status": "allowed"
+    },
+    {
+      "name": "لحم اليمام / يمام",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777444002/tayebat/products/xoodzaapygokhcraqwsw.jpg",
+      "category": "طيور مسموحة",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "لحم بقري",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777442285/tayebat/products/oedzib4ddwx3lt66ofqp.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "لحم جاموسي",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777443552/tayebat/products/xxxhfi7gkn384y4hvmhi.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "التمر",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777427602/tayebat/products/a9cc9ewaxc7ppggcoin6.jpg",
+      "category": "التمور والفواكه المجففة",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "كمثرى / انجاص مع تقشيره",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777430712/tayebat/products/woyu4jttajwgrmfiyyai.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "كمثرى / انجاص مع تقشيره",
+      "status": "allowed"
+    },
+    {
+      "name": "خوخ مع تقشيره",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777430896/tayebat/products/lpvybdhget5hukrtad0a.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "خوخ مسموح مع تقشيره",
+      "status": "allowed"
+    },
+    {
+      "name": "برقوق / سنطروزة مع تقشيره",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777431071/tayebat/products/aidrwfa4yuirmg2hgzae.jpg",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "برقوق / سنطروزة مع تقشيره",
+      "status": "allowed"
+    },
+    {
+      "name": "ذرة مسلوقة",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777433469/tayebat/products/o5hyw7ylzzv2bhdrgkpe.jpg",
+      "category": "نشويات وحبوب",
+      "frequency": "🟡 أسبوعياً",
+      "description": "على فترات متباعدة",
+      "status": "allowed"
+    },
+    {
+      "name": "لحمة مفرومة سادة مع ملح فقط",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438409/tayebat/products/xvfyvwmsycawrfptvcoj.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "لحمة مفرومة سادة مع ملح فقط",
+      "status": "allowed"
+    },
+    {
+      "name": "كوارع",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777438614/tayebat/products/itqoxr38nzgfcpyqqqlz.jpg",
+      "category": "لحوم وبروتينات",
+      "frequency": "🟡 أسبوعياً",
+      "description": "كوارع",
+      "status": "allowed"
+    },
+    {
+      "name": "🟢🟢 الأساسيات",
+      "image": null,
+      "emoji": "🔍",
+      "category": "🌐 الكل",
+      "frequency": "🟢 يومياً",
+      "description": "🟡 أسبوعياً",
+      "status": "allowed"
+    },
+    {
+      "name": "فول سوداني وكاجو وعين جمل",
+      "image": null,
+      "emoji": "🥜",
+      "category": "مكسرات وبذور وزيوت",
+      "frequency": "🟡 أسبوعياً",
+      "description": "لتقوية الذاكرة — الفول السوداني والكاجو وعين الجمل واللوز والفستق",
+      "status": "allowed"
+    },
+    {
+      "name": "شوكولاتة داكنة (أكثر من 70%)",
+      "image": null,
+      "emoji": "🍫",
+      "category": "حلويات ومربيات",
+      "frequency": "🟣 أحياناً",
+      "description": "الشوكولاتة الداكنة والكاكاو مسموحان",
+      "status": "allowed"
+    },
+    {
+      "name": "سمن بلدي طبيعي",
+      "image": null,
+      "emoji": "🧈",
+      "category": "دهون طبيعية",
+      "frequency": "🟢🟢 بلا قيود",
+      "description": "السمن البلدي الطبيعي مسموح",
+      "status": "allowed"
+    },
+    {
+      "name": "مشمش وبخارة",
+      "image": null,
+      "emoji": "🍑",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟡 أسبوعياً",
+      "description": "المشمش والبخارة مسموحان",
+      "status": "allowed"
+    },
+    {
+      "name": "محشي الكوسا والباذنجان والفلفل",
+      "image": null,
+      "emoji": "🍆",
+      "category": "خضروات",
+      "frequency": "🟣 أحياناً",
+      "description": "يمكن أكل الكوسا والباذنجان محشي بالأرز أو اللحم",
+      "status": "allowed"
+    },
+    {
+      "name": "كاجو",
+      "image": null,
+      "emoji": "🌰",
+      "category": "مكسرات وبذور وزيوت",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "صنوبر",
+      "image": null,
+      "emoji": "🌰",
+      "category": "مكسرات وبذور وزيوت",
+      "frequency": "🟡 أسبوعياً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "عصير جوز الهند",
+      "image": null,
+      "emoji": "🥥",
+      "category": "عصائر مسموحة",
+      "frequency": "🟣 أحياناً",
+      "description": "✅",
+      "status": "allowed"
+    },
+    {
+      "name": "ايسكريم / Ice Cream",
+      "image": null,
+      "emoji": "🌿",
+      "category": "ايسكريم / Ice Cream",
+      "frequency": "🟡 أسبوعياً",
+      "description": "ايسكريم / Ice Cream",
+      "status": "allowed"
+    },
+    {
+      "name": "قصب السكر",
+      "image": null,
+      "emoji": "🌿",
+      "category": "فواكه وعصائر طبيعية",
+      "frequency": "🟢 يومياً",
+      "description": "قصب السكر",
+      "status": "allowed"
+    }
+  ],
+  "forbidden": [
+    {
+      "name": "دجاج و فراخ",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777469405/tayebat/products/hpn5r7fqwbizptn2kwxf.jpg",
+      "category": "دواجن وبيض",
+      "frequency": "🔴 ممنوع",
+      "description": "الدواجن بجميع أنواعها ممنوعة. الفراخ تأكل من الأرض وفضلاتها",
+      "status": "forbidden"
+    },
+    {
+      "name": "جمبري وسبيط وقشريات",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777470211/tayebat/products/hwls1t1mtoyi4b57jmof.jpg",
+      "category": "أسماك ومأكولات بحرية ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "الجمبري والسبيط والقشريات ممنوعة تماماً",
+      "status": "forbidden"
+    },
+    {
+      "name": "أسماك المزارع ( بلطي / بوري )",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777470727/tayebat/products/xno3eu5b0alo34g49gm6.jpg",
+      "category": "أسماك ومأكولات بحرية ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "أسماك المزارع ممنوعة تماماً",
+      "status": "forbidden"
+    },
+    {
+      "name": "بيض (جميع الأنواع)",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777470940/tayebat/products/qgymyoaykzhie1fj0cgc.jpg",
+      "category": "دواجن وبيض",
+      "frequency": "🔴 ممنوع",
+      "description": "البيض ممنوع تماماً بجميع أنواعه",
+      "status": "forbidden"
+    },
+    {
+      "name": "المكرونة بكل أنواعها وأشكالها",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777472737/tayebat/products/bw0axlvqqh2ralwat5bq.jpg",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "المكرونة واللازانيا والكانيلوني ممنوعة",
+      "status": "forbidden"
+    },
+    {
+      "name": "فول / عدس / حمص / فاصوليا / لوبيا",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777474252/tayebat/products/ynfhco3p3hh5xslgmncl.jpg",
+      "category": "بقوليات",
+      "frequency": "🔴 ممنوع",
+      "description": "البقوليات كاملة ممنوعة",
+      "status": "forbidden"
+    },
+    {
+      "name": "الورقيات من جرجير / خس / بقدونس / كرفس / كزبرة",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777474982/tayebat/products/lpl1cvv2me1qyssfiabb.jpg",
+      "category": "خضروات ورقية ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "جميع الخضروات الورقية ممنوعة",
+      "status": "forbidden"
+    },
+    {
+      "name": "الورقيات من ورق العنب / ورق الكرنب/ السلق / الخبيزة / سبانخ",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777475488/tayebat/products/wdwo2vtfh2mzivfjl2s0.jpg",
+      "category": "خضروات ورقية ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "الملوخية والسبانخ والكرفس والجزر والفلفل والطماطم ممنوعة",
+      "status": "forbidden"
+    },
+    {
+      "name": "بطيخ / شمام",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777475701/tayebat/products/czajlxreyluatddbxkkm.jpg",
+      "category": "فواكه ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "البطيخ و الشمام ممنوعة",
+      "status": "forbidden"
+    },
+    {
+      "name": "أدوية / خافض حرارة / مسكنات / فيتامينات \\- تحت اشراف طبيبك الخاص",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777476037/tayebat/products/mqtfp354gbrabvbl6xfw.jpg",
+      "category": "أدوية ومكملات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "ممنوع أي أدوية كيميائية: خافض الحرارة، المسكنات، الفيتامينات، المكملات الصناعية، أدوية الحموضة، الأسبرين",
+      "status": "forbidden"
+    },
+    {
+      "name": "مضادات حيوية / أدوية ضغط وسكر \\- تحت اشراف طبيبك الخاص",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777476481/tayebat/products/emwwutjrnxtzs3unswmv.jpg",
+      "category": "أدوية ومكملات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "المضادات الحيوية وأدوية الضغط والسكري والإنسولين ممنوعة",
+      "status": "forbidden"
+    },
+    {
+      "name": "( السلطات ) / سلطة بكل انواعها وأسماؤها",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777476914/tayebat/products/y3yeyd1hyipg5uswkgzq.jpg",
+      "category": "خضروات ورقية ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "طبق السلطة بجميع أنواعه ممنوع",
+      "status": "forbidden"
+    },
+    {
+      "name": "معكرونة ( الشوفان / العدس / القمح )",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777477521/tayebat/products/yvxdvme8hhvv5jjwtinc.jpg",
+      "category": "نشويات مصنعة",
+      "frequency": "🔴 ممنوع",
+      "description": "معكرونة ( الشوفان / العدس / القمح )",
+      "status": "forbidden"
+    },
+    {
+      "name": "( دقيق / طحين ) الذرة و عيش الذرة",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777478057/tayebat/products/hvuacq9deiiw3jnls0lg.jpg",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "( دقيق / طحين ) الذرة و عيش الذرة ممنوع",
+      "status": "forbidden"
+    },
+    {
+      "name": "بط / وز",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777469646/tayebat/products/tkr280agjhq5afy5dxoh.jpg",
+      "category": "طيور وبروتينات ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "ديك رومي",
+      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777469963/tayebat/products/kifwzpvhi3nhh8qva0d8.jpg",
+      "category": "طيور وبروتينات ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "لبن بكل انواعه",
+      "image": null,
+      "emoji": "🥛",
+      "category": "ألبان ومشتقات",
+      "frequency": "🔴 ممنوع",
+      "description": "اللبن بكل انواعه والزبادي والكريمة واللبنة ممنوعة — تسبب الانتفاخ",
+      "status": "forbidden"
+    },
+    {
+      "name": "كل الأجبان بيضاء وجبن قريش",
+      "image": null,
+      "emoji": "🧀",
+      "category": "أجبان ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "الجبنة البيضاء وجبن القريش ممنوعة نهائياََ",
+      "status": "forbidden"
+    },
+    {
+      "name": "دقيق أبيض ومشتقاته",
+      "image": null,
+      "emoji": "🥐🥮",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "الدقيق الأبيض وكل مشتقاته:( خبز عادي، كيك، كرواسون، بسكويت، جاتوه ممنوعة ، باتيه ، بقسماط ،خيز فرنسي ، عيش فينو ، عيش بلدي ) ممنوعة",
+      "status": "forbidden"
+    },
+    {
+      "name": "حلويات شرقية (كنافة، زلابيا)",
+      "image": null,
+      "emoji": "🍮",
+      "category": "نشويات مصنعة",
+      "frequency": "🔴 ممنوع",
+      "description": "الحلويات الشرقية ممنوعة — دقيق أبيض ومواد صناعية",
+      "status": "forbidden"
+    },
+    {
+      "name": "مياه غازية / كولا / بيبسي",
+      "image": null,
+      "emoji": "🥤",
+      "category": "مياه غازية ومشروبات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "المياه الغازية والكولا والبيبسي ممنوعة",
+      "status": "forbidden"
+    },
+    {
+      "name": "مشروبات الطاقة والمشروبات الصناعية بكل أنواعها",
+      "image": null,
+      "emoji": "🧃",
+      "category": "مياه غازية ومشروبات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "مشروبات الطاقة والمشروبات الصناعية ممنوعة تماماً",
+      "status": "forbidden"
+    },
+    {
+      "name": "شاي أحمر (أسود) / بكل انواعه",
+      "image": null,
+      "emoji": "🍵",
+      "category": "مياه غازية ومشروبات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "الشاي الأحمر ممنوع — البديل: الشاي الأخضر أو القهوة التركية",
+      "status": "forbidden"
+    },
+    {
+      "name": "برتقال وكيوي وليمون وأفوكادو وبابايا",
+      "image": null,
+      "emoji": "🍊",
+      "category": "فواكه ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "البرتقال والكيوي والليمون والأفوكادو والبابايا ممنوعة",
+      "status": "forbidden"
+    },
+    {
+      "name": "عصائر طبيعية فريش (طازجة)",
+      "image": null,
+      "emoji": "🥤",
+      "category": "عصائر طبيعية طازجة ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "العصائر الطبيعية الفريش ممنوعة. المسموح فقط: العصائر المعلبة",
+      "status": "forbidden"
+    },
+    {
+      "name": "البصل والثوم",
+      "image": null,
+      "emoji": "🧄🧅",
+      "category": "خضروات ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "الثوم والبصل ممنوع أكله ني أبداََ ويفضل الاستغناء عنه في الطبخ",
+      "status": "forbidden"
+    },
+    {
+      "name": "عيش بلدي",
+      "image": null,
+      "emoji": "🍞",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "عيش شامي",
+      "image": null,
+      "emoji": "🍞",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "عيش سوري",
+      "image": null,
+      "emoji": "🍞",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "فينو",
+      "image": null,
+      "emoji": "🍞",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "فرنسي",
+      "image": null,
+      "emoji": "🍞",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "كايزر",
+      "image": null,
+      "emoji": "🍞",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "باتيه",
+      "image": null,
+      "emoji": "🍞",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "عيش صاج",
+      "image": null,
+      "emoji": "🍞",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "عيش شمس",
+      "image": null,
+      "emoji": "🍞",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "رايس كيك",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "كسكسي",
+      "image": null,
+      "emoji": "🚫",
+      "category": "نشويات مصنعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "كحك",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "ميني",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "بيتي فور",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "جولاش",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "رقاق",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "بيتزا",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "فطير",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "كرواسون",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "باتون ساليه",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "بقصومات",
+      "image": null,
+      "emoji": "🚫",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "كوكيز",
+      "image": null,
+      "emoji": "🍪",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "بسكوت",
+      "image": null,
+      "emoji": "🍪",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "ساندويتش بايتس",
+      "image": null,
+      "emoji": "🍪",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "فلمنجو",
+      "image": null,
+      "emoji": "🍪",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "هوهوز",
+      "image": null,
+      "emoji": "🧁",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "توينكيز",
+      "image": null,
+      "emoji": "🍪",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "معمول",
+      "image": null,
+      "emoji": "🍪",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "بسكوت شوفان",
+      "image": null,
+      "emoji": "🍪",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "بسكوت دايجستف",
+      "image": null,
+      "emoji": "🍪",
+      "category": "دقيق ومخبوز��ت ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "عيش شوفان",
+      "image": null,
+      "emoji": "🍞",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "كنيلوني",
+      "image": null,
+      "emoji": "🍝",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "سامبوسك",
+      "image": null,
+      "emoji": "🍝",
+      "category": "دقيق ومخبوزات ومعجنات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "مياه قلوية",
+      "image": null,
+      "emoji": "🚫",
+      "category": "مياه غازية ومشروبات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "Alkaline water",
+      "status": "forbidden"
+    },
+    {
+      "name": "فيروز",
+      "image": null,
+      "emoji": "🚫",
+      "category": "مياه غازية ومشروبات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "ستينج",
+      "image": null,
+      "emoji": "🚫",
+      "category": "مياه غازية ومشروبات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "هايب",
+      "image": null,
+      "emoji": "🚫",
+      "category": "مياه غازية ومشروبات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "أمستل",
+      "image": null,
+      "emoji": "🚫",
+      "category": "مياه غازية ومشروبات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "بيرل",
+      "image": null,
+      "emoji": "🚫",
+      "category": "مياه غازية ومشروبات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "مشروبات الشعير",
+      "image": null,
+      "emoji": "🚫",
+      "category": "مياه غازية ومشروبات صناعية",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "لبنة",
+      "image": null,
+      "emoji": "🥛",
+      "category": "ألبان ومشتقات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "جبنة بيضا",
+      "image": null,
+      "emoji": "🧀",
+      "category": "أجبان ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "جبنة قريش",
+      "image": null,
+      "emoji": "🧀",
+      "category": "أجبان ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "لبن بودرة",
+      "image": null,
+      "emoji": "🥛",
+      "category": "ألبان ومشتقات",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "خيار",
+      "image": null,
+      "emoji": "🥒",
+      "category": "خضروات ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "كوسة",
+      "image": null,
+      "emoji": "🥒",
+      "category": "خضروات ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "جزر",
+      "image": null,
+      "emoji": "🥕",
+      "category": "خضروات ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "بروكلي",
+      "image": null,
+      "emoji": "🥦",
+      "category": "خضروات ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "خضار سوتيه",
+      "image": null,
+      "emoji": "🥘",
+      "category": "خضروات ممنوعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "قشور سيليوم",
+      "image": null,
+      "emoji": "🚫",
+      "category": "بذور طبيعية",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "بذور كتان",
+      "image": null,
+      "emoji": "🚫",
+      "category": "بذور طبيعية",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "كينوا",
+      "image": null,
+      "emoji": "🚫",
+      "category": "نشويات مصنعة",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "أي بذور",
+      "image": null,
+      "emoji": "🚫",
+      "category": "بذور طبيعية",
+      "frequency": "🔴 ممنوع",
+      "description": "❌",
+      "status": "forbidden"
+    },
+    {
+      "name": "الزبادي بكل أنواعه",
+      "image": null,
+      "emoji": "🌿",
+      "category": "ألبان ومشتقات",
+      "frequency": "🔴 ممنوع",
+      "description": "تسبب الانتفاخ",
+      "status": "forbidden"
+    }
+  ]
+}
