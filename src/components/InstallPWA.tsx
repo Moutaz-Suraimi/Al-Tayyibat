@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus } from 'lucide-react';
 
 export default function InstallPWA() {
-  const [supportsPWA, setSupportsPWA] = useState(true); 
+  const [supportsPWA, setSupportsPWA] = useState(false); 
   const [promptInstall, setPromptInstall] = useState<any>(null);
   const [isDismissed, setIsDismissed] = useState(false);
 
@@ -11,6 +11,7 @@ export default function InstallPWA() {
     const handler = (e: any) => {
       e.preventDefault();
       console.log('beforeinstallprompt triggered');
+      setSupportsPWA(true);
       setPromptInstall(e);
     };
 
@@ -25,10 +26,7 @@ export default function InstallPWA() {
   }, []);
 
   const onClick = async () => {
-    if (!promptInstall) {
-      alert("لإضافة التطبيق، اضغط على زر المشاركة أو القائمة في متصفحك واختر 'إضافة للشاشة الرئيسية' (Add to Home Screen).");
-      return;
-    }
+    if (!promptInstall) return;
     promptInstall.prompt();
     const { outcome } = await promptInstall.userChoice;
     if (outcome === 'accepted') {

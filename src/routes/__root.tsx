@@ -85,8 +85,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary" },
       { name: "twitter:title", content: "نظام الطيبات — إرث الدكتور ضياء العوضي" },
       { name: "twitter:description", content: "نظام غذائي طبيعي قائم على علم وحكمة. استكشف المسموحات، الممنوعات، النظريات والاقتباسات." },
-      { property: "og:image", content: "/favicon.jpg" },
-      { name: "twitter:image", content: "/favicon.jpg" },
+      { property: "og:image", content: "/tayebat.png" },
+      { name: "twitter:image", content: "/tayebat.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
