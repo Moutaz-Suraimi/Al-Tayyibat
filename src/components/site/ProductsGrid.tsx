@@ -24,24 +24,25 @@ export function ProductsGrid({ items }: { items: Product[] }) {
     return ["all", ...Array.from(set)];
   }, [items]);
 
+  const searchableItems = useMemo(() => {
+    return items.map((i) => ({
+      ...i,
+      searchString: normalizeArabic(i.name) + " " + normalizeArabic(i.description)
+    }));
+  }, [items]);
+
   const filtered = useMemo(() => {
     const normalizedQ = normalizeArabic(deferredQ);
     const searchTerms = normalizedQ.split(" ").filter(Boolean);
 
-    return items.filter((i) => {
-      const normalizedName = normalizeArabic(i.name);
-      const normalizedDesc = normalizeArabic(i.description);
-
+    return searchableItems.filter((i) => {
       const matchQ =
         searchTerms.length === 0 ||
-        searchTerms.every(
-          (term) =>
-            normalizedName.includes(term) || normalizedDesc.includes(term)
-        );
+        searchTerms.every((term) => i.searchString.includes(term));
       const matchC = cat === "all" || i.category === cat;
       return matchQ && matchC;
     });
-  }, [items, deferredQ, cat]);
+  }, [searchableItems, deferredQ, cat]);
 
   return (
     <div>
