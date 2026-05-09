@@ -17,7 +17,15 @@ const normalizeArabic = (text: string) => {
 
 export function ProductsGrid({ items }: { items: Product[] }) {
   const [q, setQ] = useState("");
+  const [deferredQ, setDeferredQ] = useState("");
   const [cat, setCat] = useState<string>("all");
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDeferredQ(q);
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [q]);
 
   const cats = useMemo(() => {
     const set = new Set(items.map((i) => i.category));
@@ -25,7 +33,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
   }, [items]);
 
   const filtered = useMemo(() => {
-    const normalizedQ = normalizeArabic(q);
+    const normalizedQ = normalizeArabic(deferredQ);
     const searchTerms = normalizedQ.split(" ").filter(Boolean);
 
     return items.filter((i) => {
@@ -41,7 +49,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
       const matchC = cat === "all" || i.category === cat;
       return matchQ && matchC;
     });
-  }, [items, q, cat]);
+  }, [items, deferredQ, cat]);
 
   return (
     <div>
