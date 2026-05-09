@@ -51,19 +51,31 @@ export function ProductsGrid({ items }: { items: Product[] }) {
 
   return (
     <div>
-      <div className="glass rounded-3xl p-3 md:p-5 shadow-soft mb-6 flex flex-col md:flex-row gap-3 relative z-10">
+      <div className="bg-card rounded-3xl p-3 md:p-5 shadow-soft mb-6 flex flex-col md:flex-row gap-3 relative z-10 border border-border">
         <div className="relative flex-1">
-          <Search className="absolute right-4 top-1/2 -translate-y-1/2 size-5 text-muted-foreground pointer-events-none" />
+          <Search className="absolute right-4 top-1/2 -translate-y-1/2 size-6 text-primary pointer-events-none" />
           <input
-            value={q}
+            defaultValue={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder="ابحث عن صنف..."
-            className="w-full pr-12 pl-4 py-3 rounded-2xl bg-background text-foreground border border-border focus:outline-none focus:ring-2 focus:ring-primary/40 text-sm font-semibold"
+            className="w-full pr-14 pl-4 py-4 rounded-2xl bg-background text-foreground border-2 border-border focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 text-base font-bold shadow-sm placeholder:text-muted-foreground"
           />
         </div>
       </div>
 
-      <div className="flex flex-wrap gap-2 mb-6">
+      <div className="mb-6 block sm:hidden">
+        <select
+          value={cat}
+          onChange={(e) => setCat(e.target.value)}
+          className="w-full p-4 rounded-2xl bg-card text-foreground border border-border focus:outline-none focus:ring-2 focus:ring-primary/40 text-base font-bold shadow-soft"
+        >
+          {cats.map((c) => (
+            <option key={c} value={c}>{c === "all" ? "جميع الأصناف" : c}</option>
+          ))}
+        </select>
+      </div>
+
+      <div className="hidden sm:flex flex-wrap gap-2 mb-6">
         {cats.map((c) => (
           <button
             key={c}
@@ -81,7 +93,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
 
       <div className="text-sm text-muted-foreground mb-4 px-1">عرض {filtered.length} صنف</div>
 
-      <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5">
         <AnimatePresence mode="popLayout">
           {filtered.map((p, i) => (
             <ProductCard key={p.name} product={p} index={i} />
