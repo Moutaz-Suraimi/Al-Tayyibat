@@ -13,8 +13,7 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
   const isAllowed = product.status === "allowed";
   return (
     <article
-      className="group relative bg-card rounded-[2rem] p-4 sm:p-5 border border-border shadow-soft hover:shadow-luxe hover:-translate-y-1 transition-all duration-300 animate-in fade-in slide-in-from-bottom-6"
-      style={{ animationDelay: `${Math.min(index * 50, 500)}ms`, animationFillMode: "both" }}
+      className="group relative bg-card rounded-[2rem] p-4 sm:p-5 border border-border shadow-soft hover:shadow-luxe hover:-translate-y-1 transition-all duration-300"
     >
       <div className={`absolute top-3 left-3 z-10 size-10 grid place-items-center rounded-2xl text-lg font-bold ${
         isAllowed ? "bg-gradient-emerald text-primary-foreground" : "bg-gradient-to-br from-rose-500 to-red-700 text-white"

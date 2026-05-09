@@ -1,6 +1,5 @@
-import { useMemo, useState, useEffect, useRef } from "react";
+import { useMemo, useState, useDeferredValue } from "react";
 import { Search } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
 import { ProductCard } from "./ProductCard";
 import type { Product } from "@/data/site";
 
@@ -16,19 +15,9 @@ const normalizeArabic = (text: string) => {
 };
 
 export function ProductsGrid({ items }: { items: Product[] }) {
-  const [debouncedQ, setDebouncedQ] = useState("");
+  const [q, setQ] = useState("");
+  const deferredQ = useDeferredValue(q);
   const [cat, setCat] = useState<string>("all");
-  const inputRef = useRef<HTMLInputElement>(null);
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
-
-  const handleInput = () => {
-    if (timerRef.current) clearTimeout(timerRef.current);
-    timerRef.current = setTimeout(() => {
-      if (inputRef.current) {
-        setDebouncedQ(inputRef.current.value);
-      }
-    }, 400); // Wait 400ms after last keystroke before updating React state
-  };
 
   const cats = useMemo(() => {
     const set = new Set(items.map((i) => i.category));
@@ -36,7 +25,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
   }, [items]);
 
   const filtered = useMemo(() => {
-    const normalizedQ = normalizeArabic(debouncedQ);
+    const normalizedQ = normalizeArabic(deferredQ);
     const searchTerms = normalizedQ.split(" ").filter(Boolean);
 
     return items.filter((i) => {
@@ -52,14 +41,14 @@ export function ProductsGrid({ items }: { items: Product[] }) {
       const matchC = cat === "all" || i.category === cat;
       return matchQ && matchC;
     });
-  }, [items, debouncedQ, cat]);
+  }, [items, deferredQ, cat]);
 
   return (
     <div>
       <div style={{ marginBottom: "24px", position: "relative", zIndex: 100, marginTop: "24px" }}>
         <input
-          ref={inputRef}
-          onInput={handleInput}
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
           placeholder="اكتب هنا للبحث عن منتج..."
           style={{
             position: "relative",
