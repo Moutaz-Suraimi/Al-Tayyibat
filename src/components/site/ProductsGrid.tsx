@@ -27,11 +27,18 @@ export function ProductsGrid({ items }: { items: Product[] }) {
 
   const filtered = useMemo(() => {
     const normalizedQ = normalizeArabic(deferredQ);
+    const searchTerms = normalizedQ.split(" ").filter(Boolean);
+
     return items.filter((i) => {
+      const normalizedName = normalizeArabic(i.name);
+      const normalizedDesc = normalizeArabic(i.description);
+
       const matchQ =
-        !normalizedQ ||
-        normalizeArabic(i.name).includes(normalizedQ) ||
-        normalizeArabic(i.description).includes(normalizedQ);
+        searchTerms.length === 0 ||
+        searchTerms.every(
+          (term) =>
+            normalizedName.includes(term) || normalizedDesc.includes(term)
+        );
       const matchC = cat === "all" || i.category === cat;
       return matchQ && matchC;
     });
@@ -39,7 +46,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
 
   return (
     <div>
-      <div className="glass rounded-3xl p-3 md:p-5 shadow-soft mb-6 flex flex-col md:flex-row gap-3 sticky top-20 md:top-24 z-30">
+      <div className="glass rounded-3xl p-3 md:p-5 shadow-soft mb-6 flex flex-col md:flex-row gap-3 relative z-10">
         <div className="relative flex-1">
           <Search className="absolute right-4 top-1/2 -translate-y-1/2 size-5 text-muted-foreground" />
           <input
@@ -51,12 +58,12 @@ export function ProductsGrid({ items }: { items: Product[] }) {
         </div>
       </div>
 
-      <div className="flex gap-2 overflow-x-auto pb-3 mb-6 snap-x [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+      <div className="flex flex-wrap gap-2 mb-6">
         {cats.map((c) => (
           <button
             key={c}
             onClick={() => setCat(c)}
-            className={`px-4 py-2 rounded-full text-sm font-bold transition-all whitespace-nowrap snap-center ${
+            className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${
               cat === c
                 ? "bg-gradient-emerald text-primary-foreground shadow-luxe scale-105"
                 : "bg-card border border-border text-foreground/70 hover:text-foreground hover:border-primary/40"

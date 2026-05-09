@@ -27,7 +27,7 @@ export function Navbar() {
       initial={{ y: -30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
+      className={`absolute top-0 inset-x-0 z-50 transition-all duration-500 ${
         scrolled ? "py-2" : "py-4"
       }`}
     >
