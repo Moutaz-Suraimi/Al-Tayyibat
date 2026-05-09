@@ -19,6 +19,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
 
   const cats = useMemo(() => {
     const set = new Set(items.map((i) => i.category));
+    set.delete("🌐 الكل");
     return ["all", ...Array.from(set)];
   }, [items]);
 
