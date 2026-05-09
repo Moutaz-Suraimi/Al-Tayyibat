@@ -12,13 +12,9 @@ const freqStyle = (f: string) => {
 export function ProductCard({ product, index = 0 }: { product: Product; index?: number }) {
   const isAllowed = product.status === "allowed";
   return (
-    <motion.article
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-50px" }}
-      transition={{ duration: 0.5, delay: Math.min(index * 0.03, 0.4) }}
-      whileHover={{ y: -6 }}
-      className="group relative overflow-hidden rounded-3xl bg-card border border-border shadow-soft hover:shadow-luxe transition-all"
+    <article
+      className="group relative bg-card rounded-[2rem] p-4 sm:p-5 border border-border shadow-soft hover:shadow-luxe hover:-translate-y-1 transition-all duration-300 animate-in fade-in slide-in-from-bottom-6"
+      style={{ animationDelay: `${Math.min(index * 50, 500)}ms`, animationFillMode: "both" }}
     >
       <div className={`absolute top-3 left-3 z-10 size-10 grid place-items-center rounded-2xl text-lg font-bold ${
         isAllowed ? "bg-gradient-emerald text-primary-foreground" : "bg-gradient-to-br from-rose-500 to-red-700 text-white"
@@ -48,6 +44,6 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
         </span>
         <p className="text-sm text-muted-foreground mt-3 line-clamp-2 leading-relaxed">{product.description}</p>
       </div>
-    </motion.article>
+    </article>
   );
 }

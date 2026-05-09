@@ -97,11 +97,9 @@ export function ProductsGrid({ items }: { items: Product[] }) {
       <div className="text-sm text-muted-foreground mb-4 px-1">عرض {filtered.length} صنف</div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5">
-        <AnimatePresence mode="popLayout">
-          {filtered.map((p, i) => (
-            <ProductCard key={p.name} product={p} index={i} />
-          ))}
-        </AnimatePresence>
+        {filtered.map((p, i) => (
+          <ProductCard key={p.name} product={p} index={i} />
+        ))}
       </div>
 
       {filtered.length === 0 && (
