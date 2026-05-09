@@ -36,7 +36,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
   }, [items]);
 
   const filtered = useMemo(() => {
-    const normalizedQ = normalizeArabic(deferredQ);
+    const normalizedQ = normalizeArabic(debouncedQ);
     const searchTerms = normalizedQ.split(" ").filter(Boolean);
 
     return items.filter((i) => {
@@ -52,7 +52,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
       const matchC = cat === "all" || i.category === cat;
       return matchQ && matchC;
     });
-  }, [items, deferredQ, cat]);
+  }, [items, debouncedQ, cat]);
 
   return (
     <div>
