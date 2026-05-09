@@ -47,7 +47,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
       const matchC = cat === "all" || i.category === cat;
       return matchQ && matchC;
     });
-  }, [items, deferredQ, cat]);
+  }, [items, debouncedQ, cat]);
 
   return (
     <div>
