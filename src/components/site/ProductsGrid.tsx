@@ -51,14 +51,25 @@ export function ProductsGrid({ items }: { items: Product[] }) {
 
   return (
     <div>
-      <div className="bg-card rounded-3xl p-3 md:p-5 shadow-soft mb-6 flex flex-col md:flex-row gap-3 relative z-10 border border-border">
-        <div className="relative flex-1">
-          <Search className="absolute right-4 top-1/2 -translate-y-1/2 size-6 text-primary pointer-events-none" />
+      <div className="bg-white dark:bg-zinc-900 rounded-3xl p-3 md:p-4 shadow-soft mb-6 relative z-10 border border-emerald-500/30">
+        <div className="relative">
+          <Search className="absolute right-4 top-1/2 -translate-y-1/2 size-6 text-emerald-600 pointer-events-none" />
           <input
-            defaultValue={q}
+            value={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder="ابحث عن صنف..."
-            className="w-full pr-14 pl-4 py-4 rounded-2xl bg-background text-foreground border-2 border-border focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 text-base font-bold shadow-sm placeholder:text-muted-foreground"
+            style={{
+              width: "100%",
+              padding: "16px 20px",
+              paddingRight: "56px",
+              borderRadius: "16px",
+              backgroundColor: "transparent",
+              color: "inherit",
+              border: "2px solid #10b981",
+              fontSize: "16px",
+              fontWeight: "bold",
+              outline: "none"
+            }}
           />
         </div>
       </div>
