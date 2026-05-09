@@ -19,6 +19,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
   const [q, setQ] = useState("");
   const [deferredQ, setDeferredQ] = useState("");
   const [cat, setCat] = useState<string>("all");
+  const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -53,27 +54,28 @@ export function ProductsGrid({ items }: { items: Product[] }) {
 
   return (
     <div>
-      <div style={{ marginBottom: "24px", position: "relative", zIndex: 10 }}>
-        <div style={{ position: "relative" }}>
-          <Search style={{ position: "absolute", right: "16px", top: "50%", transform: "translateY(-50%)", width: "24px", height: "24px", color: "#10b981", pointerEvents: "none" }} />
-          <input
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
-            placeholder="اكتب هنا للبحث..."
-            style={{
-              width: "100%",
-              padding: "16px 20px",
-              paddingRight: "56px",
-              borderRadius: "16px",
-              backgroundColor: "#f9fafb",
-              color: "#111827",
-              border: "2px solid #10b981",
-              fontSize: "18px",
-              fontWeight: "bold",
-              outline: "none"
-            }}
-          />
-        </div>
+      <div style={{ marginBottom: "24px" }}>
+        <input
+          ref={inputRef}
+          defaultValue={q}
+          onInput={() => {
+            if (inputRef.current) {
+              setQ(inputRef.current.value);
+            }
+          }}
+          placeholder="اكتب هنا للبحث عن منتج..."
+          style={{
+            width: "100%",
+            padding: "16px",
+            borderRadius: "16px",
+            backgroundColor: "#f9fafb",
+            color: "#111827",
+            border: "2px solid #10b981",
+            fontSize: "18px",
+            fontWeight: "bold",
+            outline: "none"
+          }}
+        />
       </div>
 
       <div className="flex flex-col gap-3 mb-8">
