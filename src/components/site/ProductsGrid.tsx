@@ -56,12 +56,14 @@ export function ProductsGrid({ items }: { items: Product[] }) {
 
   return (
     <div>
-      <div style={{ marginBottom: "24px" }}>
+      <div style={{ marginBottom: "24px", position: "relative", zIndex: 100, marginTop: "24px" }}>
         <input
           ref={inputRef}
           onInput={handleInput}
           placeholder="اكتب هنا للبحث عن منتج..."
           style={{
+            position: "relative",
+            zIndex: 100,
             width: "100%",
             padding: "16px",
             borderRadius: "16px",
@@ -70,7 +72,8 @@ export function ProductsGrid({ items }: { items: Product[] }) {
             border: "2px solid #10b981",
             fontSize: "18px",
             fontWeight: "bold",
-            outline: "none"
+            outline: "none",
+            boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)"
           }}
         />
       </div>
