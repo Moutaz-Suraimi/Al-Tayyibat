@@ -2,8 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import drDhia from "@/assets/dr-dhia.jpg";
-
+import tayebatLogo from "@/assets/tayebat.png";
 const links = [
   { to: "/", label: "الرئيسية" },
   { to: "/allowed", label: "المسموحات" },
@@ -34,8 +33,8 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <nav className={`glass rounded-3xl px-5 py-3 flex items-center justify-between shadow-soft transition-all ${scrolled ? "shadow-luxe" : ""}`}>
           <Link to="/" className="flex items-center gap-3 group">
-            <span className="block size-11 rounded-2xl overflow-hidden ring-2 ring-gold/60 shadow-gold group-hover:scale-110 transition-transform">
-              <img src={drDhia} alt="د. ضياء العوضي" className="w-full h-full object-cover object-top" />
+            <span className="block h-12 w-auto overflow-hidden group-hover:scale-105 transition-transform">
+              <img src={tayebatLogo} alt="لوجو نظام الطيبات" className="h-full w-full object-contain" />
             </span>
             <div className="leading-tight">
               <div className="font-extrabold text-lg text-foreground">نظام الطيبات</div>

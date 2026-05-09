@@ -10,11 +10,17 @@
   <link rel="icon" href="/favicon.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="/favicon.jpg">
   
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="نظام الطيبات">
+  
   <!-- ظهور الصورة كغلاف في بحث جوجل (SEO) -->
   <meta property="og:image" content="/favicon.jpg">
   <meta itemprop="image" content="/favicon.jpg">
 
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#16a34a">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
@@ -23,6 +29,19 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('SW registered: ', registration);
+          })
+          .catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+  </script>
 </body>
 
 </html>

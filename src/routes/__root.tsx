@@ -9,6 +9,10 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import tayebatLogo from "@/assets/tayebat.png";
+import InstallPWA from "@/components/InstallPWA";
 
 function NotFoundComponent() {
   return (
@@ -116,10 +120,54 @@ function RootShell({ children }: { children: React.ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+  const [showIntro, setShowIntro] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowIntro(false), 2500);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <Outlet />
-    </QueryClientProvider>
+    <>
+      <AnimatePresence>
+        {showIntro && (
+          <motion.div 
+            initial={{ opacity: 1 }}
+            exit={{ opacity: 0, filter: "blur(10px)" }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
+            className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-background/95 backdrop-blur-sm"
+          >
+            <motion.div
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 1, delay: 0.2, type: "spring", bounce: 0.4 }}
+              className="flex flex-col items-center"
+            >
+              <img src={tayebatLogo} alt="نظام الطيبات" className="w-48 h-auto mb-8 drop-shadow-2xl" />
+              <motion.h1 
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.7, delay: 0.6 }}
+                className="text-4xl md:text-5xl font-extrabold text-foreground tracking-tight mb-3 drop-shadow-md"
+              >
+                نظام الطيبات
+              </motion.h1>
+              <motion.p
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.7, delay: 0.9 }}
+                className="text-xl text-gold font-serif italic drop-shadow-sm"
+              >
+                إرث الدكتور ضياء العوضي
+              </motion.p>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <QueryClientProvider client={queryClient}>
+        <Outlet />
+        <InstallPWA />
+      </QueryClientProvider>
+    </>
   );
 }

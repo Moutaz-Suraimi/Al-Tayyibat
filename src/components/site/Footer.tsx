@@ -1,6 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import drDhia from "@/assets/dr-dhia.jpg";
-
+import tayebatLogo from "@/assets/tayebat.png";
 export function Footer() {
   return (
     <footer className="mt-20 border-t border-border bg-gradient-to-b from-transparent to-accent/30">
@@ -8,8 +7,8 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-10">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <span className="block size-12 rounded-2xl overflow-hidden ring-2 ring-gold/60 shadow-gold">
-                <img src={drDhia} alt="د. ضياء العوضي" className="w-full h-full object-cover object-top" />
+              <span className="block h-16 w-auto overflow-hidden">
+                <img src={tayebatLogo} alt="لوجو نظام الطيبات" className="h-full w-full object-contain" />
               </span>
               <div>
                 <div className="font-extrabold text-lg">نظام الطيبات</div>

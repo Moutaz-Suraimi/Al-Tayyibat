@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { motion } from "framer-motion";
 import { Search } from "lucide-react";
 import { ProductCard } from "./ProductCard";
 import type { Product } from "@/data/site";
@@ -16,6 +17,7 @@ const normalizeArabic = (text: string) => {
 
 export function ProductsGrid({ items }: { items: Product[] }) {
   const [cat, setCat] = useState<string>("all");
+  const [search, setSearch] = useState("");
 
   const cats = useMemo(() => {
     const set = new Set(items.map((i) => i.category));
@@ -24,13 +26,38 @@ export function ProductsGrid({ items }: { items: Product[] }) {
   }, [items]);
 
   const filtered = useMemo(() => {
-    if (cat === "all") return items;
-    return items.filter((i) => i.category === cat);
-  }, [items, cat]);
+    let result = items;
+    if (cat !== "all") {
+      result = result.filter((i) => i.category === cat);
+    }
+    if (search.trim()) {
+      const q = normalizeArabic(search);
+      result = result.filter(
+        (i) =>
+          normalizeArabic(i.name).includes(q) ||
+          normalizeArabic(i.description).includes(q) ||
+          normalizeArabic(i.category).includes(q)
+      );
+    }
+    return result;
+  }, [items, cat, search]);
 
   return (
     <div>
-      <div className="flex flex-col gap-3 mb-8">
+      <div className="relative mb-6">
+        <div className="absolute inset-y-0 right-4 flex items-center pointer-events-none text-muted-foreground">
+          <Search className="size-5" />
+        </div>
+        <input
+          type="text"
+          placeholder="ابحث عن منتج..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          className="w-full bg-card border border-border rounded-2xl py-4 pr-12 pl-4 text-foreground shadow-soft focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all text-right"
+        />
+      </div>
+
+      <div className="flex flex-wrap gap-3 mb-8">
         {cats.map((c) => (
           <button
             key={c}

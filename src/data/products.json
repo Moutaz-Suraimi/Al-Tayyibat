@@ -114,7 +114,7 @@
     },
     {
       "name": "خل قصب السكر الطبيعي",
-      "image": "https://res.cloudinary.com/drz13c0pm/image/upload/q_auto,f_auto,w_400/v1777439059/tayebat/products/ag3j8udf5hanmqvltl8k.jpg",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23f3f4f6%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%99%3C%2Ftext%3E%3C%2Fsvg%3E",
       "category": "زيوت طبيعية وخل",
       "frequency": "🟡 أسبوعياً",
       "description": "الخل الطبيعي أساسي في النظام",
@@ -625,17 +625,8 @@
       "status": "allowed"
     },
     {
-      "name": "🟢🟢 الأساسيات",
-      "image": null,
-      "emoji": "🔍",
-      "category": "🌐 الكل",
-      "frequency": "🟢 يومياً",
-      "description": "🟡 أسبوعياً",
-      "status": "allowed"
-    },
-    {
       "name": "فول سوداني وكاجو وعين جمل",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥜",
       "category": "مكسرات وبذور وزيوت",
       "frequency": "🟡 أسبوعياً",
@@ -644,7 +635,7 @@
     },
     {
       "name": "شوكولاتة داكنة (أكثر من 70%)",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A6%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍫",
       "category": "حلويات ومربيات",
       "frequency": "🟣 أحياناً",
@@ -653,7 +644,7 @@
     },
     {
       "name": "سمن بلدي طبيعي",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A7%88%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🧈",
       "category": "دهون طبيعية",
       "frequency": "🟢🟢 بلا قيود",
@@ -662,7 +653,7 @@
     },
     {
       "name": "مشمش وبخارة",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%8A%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍑",
       "category": "فواكه وعصائر طبيعية",
       "frequency": "🟡 أسبوعياً",
@@ -671,7 +662,7 @@
     },
     {
       "name": "محشي الكوسا والباذنجان والفلفل",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23dcfce7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%92%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍆",
       "category": "خضروات",
       "frequency": "🟣 أحياناً",
@@ -680,7 +671,7 @@
     },
     {
       "name": "كاجو",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🌰",
       "category": "مكسرات وبذور وزيوت",
       "frequency": "🟡 أسبوعياً",
@@ -689,7 +680,7 @@
     },
     {
       "name": "صنوبر",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🌰",
       "category": "مكسرات وبذور وزيوت",
       "frequency": "🟡 أسبوعياً",
@@ -698,7 +689,7 @@
     },
     {
       "name": "عصير جوز الهند",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%A5%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥥",
       "category": "عصائر مسموحة",
       "frequency": "🟣 أحياناً",
@@ -707,7 +698,7 @@
     },
     {
       "name": "ايسكريم / Ice Cream",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A6%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🌿",
       "category": "ايسكريم / Ice Cream",
       "frequency": "🟡 أسبوعياً",
@@ -716,7 +707,7 @@
     },
     {
       "name": "قصب السكر",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23dcfce7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8E%8B%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🌿",
       "category": "فواكه وعصائر طبيعية",
       "frequency": "🟢 يومياً",
@@ -855,7 +846,7 @@
     },
     {
       "name": "لبن بكل انواعه",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23f1f5f9%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%9B%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥛",
       "category": "ألبان ومشتقات",
       "frequency": "🔴 ممنوع",
@@ -864,7 +855,7 @@
     },
     {
       "name": "كل الأجبان بيضاء وجبن قريش",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A7%80%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🧀",
       "category": "أجبان ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -873,7 +864,7 @@
     },
     {
       "name": "دقيق أبيض ومشتقاته",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥐🥮",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -882,7 +873,7 @@
     },
     {
       "name": "حلويات شرقية (كنافة، زلابيا)",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍮",
       "category": "نشويات مصنعة",
       "frequency": "🔴 ممنوع",
@@ -891,7 +882,7 @@
     },
     {
       "name": "مياه غازية / كولا / بيبسي",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23e0f2fe%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%A4%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥤",
       "category": "مياه غازية ومشروبات صناعية",
       "frequency": "🔴 ممنوع",
@@ -900,7 +891,7 @@
     },
     {
       "name": "مشروبات الطاقة والمشروبات الصناعية بكل أنواعها",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23e0f2fe%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%A4%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🧃",
       "category": "مياه غازية ومشروبات صناعية",
       "frequency": "🔴 ممنوع",
@@ -909,7 +900,7 @@
     },
     {
       "name": "شاي أحمر (أسود) / بكل انواعه",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%E2%98%95%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍵",
       "category": "مياه غازية ومشروبات صناعية",
       "frequency": "🔴 ممنوع",
@@ -918,7 +909,7 @@
     },
     {
       "name": "برتقال وكيوي وليمون وأفوكادو وبابايا",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%8A%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍊",
       "category": "فواكه ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -927,7 +918,7 @@
     },
     {
       "name": "عصائر طبيعية فريش (طازجة)",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23f3f4f6%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%BD%EF%B8%8F%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥤",
       "category": "عصائر طبيعية طازجة ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -936,7 +927,7 @@
     },
     {
       "name": "البصل والثوم",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23f3e8ff%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A7%85%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🧄🧅",
       "category": "خضروات ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -945,7 +936,7 @@
     },
     {
       "name": "عيش بلدي",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍞",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -954,7 +945,7 @@
     },
     {
       "name": "عيش شامي",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍞",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -963,7 +954,7 @@
     },
     {
       "name": "عيش سوري",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍞",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -972,7 +963,7 @@
     },
     {
       "name": "فينو",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%96%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍞",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -981,7 +972,7 @@
     },
     {
       "name": "فرنسي",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%96%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍞",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -990,7 +981,7 @@
     },
     {
       "name": "كايزر",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%96%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍞",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -999,7 +990,7 @@
     },
     {
       "name": "باتيه",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%96%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍞",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1008,7 +999,7 @@
     },
     {
       "name": "عيش صاج",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍞",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1017,7 +1008,7 @@
     },
     {
       "name": "عيش شمس",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍞",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1026,7 +1017,7 @@
     },
     {
       "name": "رايس كيك",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1035,7 +1026,7 @@
     },
     {
       "name": "كسكسي",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "نشويات مصنعة",
       "frequency": "🔴 ممنوع",
@@ -1044,7 +1035,7 @@
     },
     {
       "name": "كحك",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1053,7 +1044,7 @@
     },
     {
       "name": "ميني",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%96%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1062,7 +1053,7 @@
     },
     {
       "name": "بيتي فور",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1071,7 +1062,7 @@
     },
     {
       "name": "جولاش",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1080,7 +1071,7 @@
     },
     {
       "name": "رقاق",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1089,7 +1080,7 @@
     },
     {
       "name": "بيتزا",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fee2e2%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%95%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1098,7 +1089,7 @@
     },
     {
       "name": "فطير",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1107,7 +1098,7 @@
     },
     {
       "name": "كرواسون",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%90%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1116,7 +1107,7 @@
     },
     {
       "name": "باتون ساليه",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1125,7 +1116,7 @@
     },
     {
       "name": "بقصومات",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1134,7 +1125,7 @@
     },
     {
       "name": "كوكيز",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%AA%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍪",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1143,7 +1134,7 @@
     },
     {
       "name": "بسكوت",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%AA%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍪",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1152,7 +1143,7 @@
     },
     {
       "name": "ساندويتش بايتس",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍪",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1161,7 +1152,7 @@
     },
     {
       "name": "فلمنجو",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍪",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1170,7 +1161,7 @@
     },
     {
       "name": "هوهوز",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🧁",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1179,7 +1170,7 @@
     },
     {
       "name": "توينكيز",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍪",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1188,7 +1179,7 @@
     },
     {
       "name": "معمول",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍪",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1197,7 +1188,7 @@
     },
     {
       "name": "بسكوت شوفان",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%AA%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍪",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1206,7 +1197,7 @@
     },
     {
       "name": "بسكوت دايجستف",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%AA%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍪",
       "category": "دقيق ومخبوز��ت ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1215,7 +1206,7 @@
     },
     {
       "name": "عيش شوفان",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍞",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1224,7 +1215,7 @@
     },
     {
       "name": "كنيلوني",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%AB%93%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍝",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1233,7 +1224,7 @@
     },
     {
       "name": "سامبوسك",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%96%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🍝",
       "category": "دقيق ومخبوزات ومعجنات",
       "frequency": "🔴 ممنوع",
@@ -1242,7 +1233,7 @@
     },
     {
       "name": "مياه قلوية",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23e0f2fe%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%92%A7%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "مياه غازية ومشروبات صناعية",
       "frequency": "🔴 ممنوع",
@@ -1251,7 +1242,7 @@
     },
     {
       "name": "فيروز",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23e0f2fe%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%A4%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "مياه غازية ومشروبات صناعية",
       "frequency": "🔴 ممنوع",
@@ -1260,7 +1251,7 @@
     },
     {
       "name": "ستينج",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23e0f2fe%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%A4%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "مياه غازية ومشروبات صناعية",
       "frequency": "🔴 ممنوع",
@@ -1269,7 +1260,7 @@
     },
     {
       "name": "هايب",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23e0f2fe%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%A4%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "مياه غازية ومشروبات صناعية",
       "frequency": "🔴 ممنوع",
@@ -1278,7 +1269,7 @@
     },
     {
       "name": "أمستل",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "مياه غازية ومشروبات صناعية",
       "frequency": "🔴 ممنوع",
@@ -1287,7 +1278,7 @@
     },
     {
       "name": "بيرل",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "مياه غازية ومشروبات صناعية",
       "frequency": "🔴 ممنوع",
@@ -1296,7 +1287,7 @@
     },
     {
       "name": "مشروبات الشعير",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%8D%BA%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "مياه غازية ومشروبات صناعية",
       "frequency": "🔴 ممنوع",
@@ -1305,7 +1296,7 @@
     },
     {
       "name": "لبنة",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A7%80%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥛",
       "category": "ألبان ومشتقات",
       "frequency": "🔴 ممنوع",
@@ -1314,7 +1305,7 @@
     },
     {
       "name": "جبنة بيضا",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A7%80%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🧀",
       "category": "أجبان ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -1323,7 +1314,7 @@
     },
     {
       "name": "جبنة قريش",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A7%80%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🧀",
       "category": "أجبان ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -1332,7 +1323,7 @@
     },
     {
       "name": "لبن بودرة",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23f1f5f9%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%9B%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥛",
       "category": "ألبان ومشتقات",
       "frequency": "🔴 ممنوع",
@@ -1341,7 +1332,7 @@
     },
     {
       "name": "خيار",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23dcfce7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%92%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥒",
       "category": "خضروات ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -1350,7 +1341,7 @@
     },
     {
       "name": "كوسة",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23dcfce7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%92%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥒",
       "category": "خضروات ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -1359,7 +1350,7 @@
     },
     {
       "name": "جزر",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23ffedd5%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%95%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥕",
       "category": "خضروات ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -1368,7 +1359,7 @@
     },
     {
       "name": "بروكلي",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23dcfce7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%A6%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥦",
       "category": "خضروات ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -1377,7 +1368,7 @@
     },
     {
       "name": "خضار سوتيه",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23dcfce7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%A6%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🥘",
       "category": "خضروات ممنوعة",
       "frequency": "🔴 ممنوع",
@@ -1386,7 +1377,7 @@
     },
     {
       "name": "قشور سيليوم",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "بذور طبيعية",
       "frequency": "🔴 ممنوع",
@@ -1395,7 +1386,7 @@
     },
     {
       "name": "بذور كتان",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "بذور طبيعية",
       "frequency": "🔴 ممنوع",
@@ -1404,7 +1395,7 @@
     },
     {
       "name": "كينوا",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "نشويات مصنعة",
       "frequency": "🔴 ممنوع",
@@ -1413,7 +1404,7 @@
     },
     {
       "name": "أي بذور",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23fef3c7%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%9C%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🚫",
       "category": "بذور طبيعية",
       "frequency": "🔴 ممنوع",
@@ -1422,7 +1413,7 @@
     },
     {
       "name": "الزبادي بكل أنواعه",
-      "image": null,
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22%23f1f5f9%22%20rx%3D%2240%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20font-size%3D%22200%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%3E%F0%9F%A5%9B%3C%2Ftext%3E%3C%2Fsvg%3E",
       "emoji": "🌿",
       "category": "ألبان ومشتقات",
       "frequency": "🔴 ممنوع",
