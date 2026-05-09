@@ -4,6 +4,7 @@ import { ArrowLeft, Sparkles, BookOpen, Stethoscope, Quote } from "lucide-react"
 import { PageShell } from "@/components/site/PageShell";
 import { ProductCard } from "@/components/site/ProductCard";
 import drDhia from "@/assets/dr-dhia.jpg";
+import tayebatLogo from "@/assets/tayebat.png";
 import { products, frequencyTiers, goldenRules, quotes, theories, stats, testimonials } from "@/data/site";
 
 export const Route = createFileRoute("/")({
@@ -32,9 +33,12 @@ function Home() {
               <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 text-xs font-bold text-primary mb-6 shadow-soft">
                 <Sparkles className="size-4" /> نظام غذائي طبيعي
               </div>
-              <h1 className="text-5xl lg:text-7xl font-black leading-[1.1] tracking-tight mb-6">
-                نظام <span className="text-shimmer">الطيبات</span>
-              </h1>
+              <div className="flex items-center gap-4 mb-6">
+                <img src={tayebatLogo} alt="شعار الطيبات" className="w-16 h-16 lg:w-24 lg:h-24 object-contain" />
+                <h1 className="text-5xl lg:text-7xl font-black leading-[1.1] tracking-tight">
+                  نظام <span className="text-shimmer">الطيبات</span>
+                </h1>
+              </div>
               <p className="text-xl lg:text-2xl text-foreground/80 leading-relaxed mb-4 font-semibold">
                 غذاء متوازن = جسم قوي = عقل صافي = طاقة نقية
               </p>
