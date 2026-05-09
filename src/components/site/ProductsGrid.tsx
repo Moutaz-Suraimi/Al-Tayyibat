@@ -16,17 +16,19 @@ const normalizeArabic = (text: string) => {
 };
 
 export function ProductsGrid({ items }: { items: Product[] }) {
-  const [q, setQ] = useState("");
-  const [deferredQ, setDeferredQ] = useState("");
+  const [debouncedQ, setDebouncedQ] = useState("");
   const [cat, setCat] = useState<string>("all");
   const inputRef = useRef<HTMLInputElement>(null);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setDeferredQ(q);
-    }, 300);
-    return () => clearTimeout(timer);
-  }, [q]);
+  const handleInput = () => {
+    if (timerRef.current) clearTimeout(timerRef.current);
+    timerRef.current = setTimeout(() => {
+      if (inputRef.current) {
+        setDebouncedQ(inputRef.current.value);
+      }
+    }, 400); // Wait 400ms after last keystroke before updating React state
+  };
 
   const cats = useMemo(() => {
     const set = new Set(items.map((i) => i.category));
@@ -57,12 +59,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
       <div style={{ marginBottom: "24px" }}>
         <input
           ref={inputRef}
-          defaultValue={q}
-          onInput={() => {
-            if (inputRef.current) {
-              setQ(inputRef.current.value);
-            }
-          }}
+          onInput={handleInput}
           placeholder="اكتب هنا للبحث عن منتج..."
           style={{
             width: "100%",
