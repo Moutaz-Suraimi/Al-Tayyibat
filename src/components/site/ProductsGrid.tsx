@@ -1,11 +1,23 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useDeferredValue } from "react";
 import { Search } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ProductCard } from "./ProductCard";
 import type { Product } from "@/data/site";
 
+const normalizeArabic = (text: string) => {
+  if (!text) return "";
+  return text
+    .replace(/[أإآ]/g, "ا")
+    .replace(/ة/g, "ه")
+    .replace(/ى/g, "ي")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+};
+
 export function ProductsGrid({ items }: { items: Product[] }) {
   const [q, setQ] = useState("");
+  const deferredQ = useDeferredValue(q);
   const [cat, setCat] = useState<string>("all");
 
   const cats = useMemo(() => {
@@ -14,16 +26,20 @@ export function ProductsGrid({ items }: { items: Product[] }) {
   }, [items]);
 
   const filtered = useMemo(() => {
+    const normalizedQ = normalizeArabic(deferredQ);
     return items.filter((i) => {
-      const matchQ = !q || i.name.includes(q) || i.description.includes(q);
+      const matchQ =
+        !normalizedQ ||
+        normalizeArabic(i.name).includes(normalizedQ) ||
+        normalizeArabic(i.description).includes(normalizedQ);
       const matchC = cat === "all" || i.category === cat;
       return matchQ && matchC;
     });
-  }, [items, q, cat]);
+  }, [items, deferredQ, cat]);
 
   return (
     <div>
-      <div className="glass rounded-3xl p-4 md:p-5 shadow-soft mb-6 flex flex-col md:flex-row gap-3 sticky top-24 z-30">
+      <div className="glass rounded-3xl p-3 md:p-5 shadow-soft mb-6 flex flex-col md:flex-row gap-3 sticky top-20 md:top-24 z-30">
         <div className="relative flex-1">
           <Search className="absolute right-4 top-1/2 -translate-y-1/2 size-5 text-muted-foreground" />
           <input
@@ -35,12 +51,12 @@ export function ProductsGrid({ items }: { items: Product[] }) {
         </div>
       </div>
 
-      <div className="flex gap-2 flex-wrap mb-8">
+      <div className="flex gap-2 overflow-x-auto pb-3 mb-6 snap-x [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
         {cats.map((c) => (
           <button
             key={c}
             onClick={() => setCat(c)}
-            className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${
+            className={`px-4 py-2 rounded-full text-sm font-bold transition-all whitespace-nowrap snap-center ${
               cat === c
                 ? "bg-gradient-emerald text-primary-foreground shadow-luxe scale-105"
                 : "bg-card border border-border text-foreground/70 hover:text-foreground hover:border-primary/40"
@@ -51,9 +67,9 @@ export function ProductsGrid({ items }: { items: Product[] }) {
         ))}
       </div>
 
-      <div className="text-sm text-muted-foreground mb-4">عرض {filtered.length} صنف</div>
+      <div className="text-sm text-muted-foreground mb-4 px-1">عرض {filtered.length} صنف</div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5">
         <AnimatePresence mode="popLayout">
           {filtered.map((p, i) => (
             <ProductCard key={p.name} product={p} index={i} />
@@ -62,7 +78,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
       </div>
 
       {filtered.length === 0 && (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center py-20 text-muted-foreground">
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center py-20 text-muted-foreground font-bold">
           لا توجد نتائج مطابقة
         </motion.div>
       )}
