@@ -4,7 +4,9 @@ const urlsToCache = [
   '/index.html',
   '/manifest.json',
   '/tayebat.png',
-  '/favicon.jpg'
+  '/favicon.jpg',
+  '/icon-192.svg',
+  '/icon-512.svg'
 ];
 
 self.addEventListener('install', event => {
