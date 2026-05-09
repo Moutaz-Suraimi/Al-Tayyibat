@@ -1,12 +1,12 @@
 const CACHE_NAME = 'tayebat-pwa-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/tayebat.png',
-  '/favicon.jpg',
-  '/icon-192.svg',
-  '/icon-512.svg'
+  './',
+  './index.html',
+  './manifest.json',
+  './tayebat.png',
+  './favicon.jpg',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', event => {
