@@ -17,13 +17,7 @@ const normalizeArabic = (text: string) => {
 
 export function ProductsGrid({ items }: { items: Product[] }) {
   const [q, setQ] = useState("");
-  const [debouncedQ, setDebouncedQ] = useState("");
   const [cat, setCat] = useState<string>("all");
-
-  useEffect(() => {
-    const timer = setTimeout(() => setDebouncedQ(q), 300);
-    return () => clearTimeout(timer);
-  }, [q]);
 
   const cats = useMemo(() => {
     const set = new Set(items.map((i) => i.category));
@@ -31,7 +25,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
   }, [items]);
 
   const filtered = useMemo(() => {
-    const normalizedQ = normalizeArabic(debouncedQ);
+    const normalizedQ = normalizeArabic(q);
     const searchTerms = normalizedQ.split(" ").filter(Boolean);
 
     return items.filter((i) => {
@@ -47,20 +41,28 @@ export function ProductsGrid({ items }: { items: Product[] }) {
       const matchC = cat === "all" || i.category === cat;
       return matchQ && matchC;
     });
-  }, [items, debouncedQ, cat]);
+  }, [items, q, cat]);
 
   return (
     <div>
-      <div className="bg-card rounded-3xl p-3 md:p-5 shadow-soft mb-6 flex flex-col md:flex-row gap-3 relative z-10 border border-border">
-        <div className="relative flex-1">
-          <Search className="absolute right-4 top-1/2 -translate-y-1/2 size-6 text-primary pointer-events-none" />
-          <input
-            defaultValue={q}
-            onChange={(e) => setQ(e.target.value)}
-            placeholder="ابحث عن صنف..."
-            className="w-full pr-14 pl-4 py-4 rounded-2xl bg-background text-foreground border-2 border-border focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 text-base font-bold shadow-sm placeholder:text-muted-foreground"
-          />
-        </div>
+      <div className="mb-6 relative z-10">
+        <input
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder="🔍 ابحث عن صنف..."
+          style={{
+            width: "100%",
+            padding: "16px 20px",
+            borderRadius: "16px",
+            backgroundColor: "#ffffff",
+            color: "#000000",
+            border: "2px solid #10b981",
+            fontSize: "16px",
+            fontWeight: "bold",
+            outline: "none",
+            boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+          }}
+        />
       </div>
 
       <div className="mb-6 block sm:hidden">
