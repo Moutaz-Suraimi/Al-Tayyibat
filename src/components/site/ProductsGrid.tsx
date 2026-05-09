@@ -46,27 +46,20 @@ export function ProductsGrid({ items }: { items: Product[] }) {
 
   return (
     <div>
-      <div style={{ marginBottom: "24px", position: "relative", zIndex: 100, marginTop: "24px" }}>
+      <form 
+        onSubmit={(e) => e.preventDefault()}
+        className="relative z-50 mb-6 mt-6 block w-full"
+      >
         <input
+          id="mobile-search-input"
+          type="search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="اكتب هنا للبحث عن منتج..."
-          style={{
-            position: "relative",
-            zIndex: 100,
-            width: "100%",
-            padding: "16px",
-            borderRadius: "16px",
-            backgroundColor: "#f9fafb",
-            color: "#111827",
-            border: "2px solid #10b981",
-            fontSize: "18px",
-            fontWeight: "bold",
-            outline: "none",
-            boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)"
-          }}
+          className="w-full px-5 py-4 text-lg font-bold bg-white text-black dark:bg-white dark:text-black border-2 border-emerald-500 rounded-2xl shadow-md focus:outline-none focus:ring-4 focus:ring-emerald-500/20 placeholder:text-gray-400"
+          autoComplete="off"
         />
-      </div>
+      </form>
 
       <div className="flex flex-col gap-3 mb-8">
         {cats.map((c) => (
