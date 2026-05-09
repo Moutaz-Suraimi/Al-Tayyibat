@@ -17,13 +17,7 @@ const normalizeArabic = (text: string) => {
 
 export function ProductsGrid({ items }: { items: Product[] }) {
   const [q, setQ] = useState("");
-  const [debouncedQ, setDebouncedQ] = useState("");
   const [cat, setCat] = useState<string>("all");
-
-  useEffect(() => {
-    const timer = setTimeout(() => setDebouncedQ(q), 250);
-    return () => clearTimeout(timer);
-  }, [q]);
 
   const cats = useMemo(() => {
     const set = new Set(items.map((i) => i.category));
@@ -31,7 +25,7 @@ export function ProductsGrid({ items }: { items: Product[] }) {
   }, [items]);
 
   const filtered = useMemo(() => {
-    const normalizedQ = normalizeArabic(debouncedQ);
+    const normalizedQ = normalizeArabic(q);
     const searchTerms = normalizedQ.split(" ").filter(Boolean);
 
     return items.filter((i) => {
@@ -47,26 +41,26 @@ export function ProductsGrid({ items }: { items: Product[] }) {
       const matchC = cat === "all" || i.category === cat;
       return matchQ && matchC;
     });
-  }, [items, debouncedQ, cat]);
+  }, [items, q, cat]);
 
   return (
     <div>
-      <div className="bg-white dark:bg-zinc-900 rounded-3xl p-3 md:p-4 shadow-soft mb-6 relative z-10 border border-emerald-500/30">
-        <div className="relative">
-          <Search className="absolute right-4 top-1/2 -translate-y-1/2 size-6 text-emerald-600 pointer-events-none" />
+      <div style={{ marginBottom: "24px", position: "relative", zIndex: 10 }}>
+        <div style={{ position: "relative" }}>
+          <Search style={{ position: "absolute", right: "16px", top: "50%", transform: "translateY(-50%)", width: "24px", height: "24px", color: "#10b981", pointerEvents: "none" }} />
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="ابحث عن صنف..."
+            placeholder="اكتب هنا للبحث..."
             style={{
               width: "100%",
               padding: "16px 20px",
               paddingRight: "56px",
               borderRadius: "16px",
-              backgroundColor: "transparent",
-              color: "inherit",
+              backgroundColor: "#f9fafb",
+              color: "#111827",
               border: "2px solid #10b981",
-              fontSize: "16px",
+              fontSize: "18px",
               fontWeight: "bold",
               outline: "none"
             }}
